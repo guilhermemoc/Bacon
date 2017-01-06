@@ -6,14 +6,15 @@
 
 	<title>Studio Bacon</title>
 
-  <?php 
+  <?php
     wp_head();
   ?>
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css">
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/component.css" />
-  <script src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/novo.css">
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/component.css" />
+  <script src="<?php bloginfo('template_url'); ?>/assets/js/modernizr.custom.js"></script>
 
 <script>
 
@@ -70,10 +71,10 @@
 	</ul>
 
 	<section class="role">
-		
+
 		<section>
 			<span class="barrarole">
-				
+
 				role!
 
 			</span>
@@ -81,4 +82,3 @@
 	</section>
 
 </header>
-

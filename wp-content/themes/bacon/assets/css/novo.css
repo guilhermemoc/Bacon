@@ -15,28 +15,28 @@ Text Domain: studiobacon
 
 @font-face {
 font-family: "beacon";
-src: url("./fonts/beacon.eot"); /* para IE */
-src: local("beacon"), url("./fonts/beacon.ttf") format("opentype");
+src: url("../fonts/beacon.eot"); /* para IE */
+src: local("beacon"), url("../fonts/beacon.ttf") format("opentype");
 }
 
 @font-face {
 font-family: gagalin;
-src: url('./fonts/gagalin.otf');
+src: url('../fonts/gagalin.otf');
 }
 
 @font-face {
 font-family: debby;
-src: url('./fonts/debby.ttf');
+src: url('../fonts/debby.ttf');
 }
 
 @font-face {
 font-family: coco;
-src: url('./fonts/coco.ttf');
+src: url('../fonts/coco.ttf');
 }
 
 @font-face {
 font-family: besom;
-src: url('./fonts/besom.ttf');
+src: url('../fonts/besom.ttf');
 }
 
 *{
@@ -49,13 +49,12 @@ html{
 }
 
 body{
-	height: 100%;
-	background: #1b1001 url('./images/textura.png') center center no-repeat;
+
 	background-size: cover;
 }
 
 header {
-    background: url('./images/header.jpg') center no-repeat;
+    background: url('../images/header.jpg') center no-repeat;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -74,7 +73,7 @@ li.layer:last-of-type {
 }
 
 header .role {
-    background: url('./images/role_barra.png') center center no-repeat;
+    background: url('../images/role_barra.png') center center no-repeat;
     font-family: beacon;
     position: absolute;
     float: left;
@@ -96,7 +95,7 @@ header .role section {
 }
 
 header .role .barrarole {
-    background: url('./images/efeito_role.png') center center no-repeat;
+    background: url('../images/efeito_role.png') center center no-repeat;
     height: 64px;
     width: 308px;
     float: left;
@@ -163,7 +162,7 @@ header .role .barrarole {
 .contato {
     width: 100%;
     height: auto;
-    background: #1b1001 url('./images/textura.png') center center no-repeat;
+    background: #1b1001 url('../images/textura.png') center center no-repeat;
 }
 
 .contato article {
@@ -171,6 +170,13 @@ header .role .barrarole {
     margin: 0 auto;
     padding: 75px 0 0 0;
     height: 153px;
+		background: #1b1001 url('../images/textura.png') center center no-repeat;
+}
+
+
+form{
+	width: 45%;
+	margin: 0 auto;
 }
 
 .contato article div:nth-child(1){
@@ -211,7 +217,7 @@ header .role .barrarole {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-		background: #1b1001 url('./images/textura.png') center center no-repeat;
+		background: #1b1001 url('../images/textura.png') center center no-repeat;
 }
 
 #fcontato label {
@@ -263,9 +269,11 @@ textarea#msg {
 }
 .button:hover {background: #A64B4B;}
 .formdiv {
-    width: 50%;
-    margin: 0 auto;
-    padding: 3% 0;
-    height: 60%;
-    display: block;
+	width: 100%;
+	margin: 0 auto;
+	/* padding: 3% 0; */
+	height: 65vh;
+	display: block;
+	/* height: 100%; */
+	background: #1b1001 url(../images/textura.png) center center no-repeat;
 }
