@@ -1,0 +1,13 @@
+[20-Feb-2016 11:06:24 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/studiobacon/public_html/wp-content/themes/bacon/index.php on line 2
+[01-Mar-2016 03:07:50 America/Chicago] PHP Fatal error:  Call to undefined function bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[01-Mar-2016 07:23:48 America/Chicago] PHP Fatal error:  Call to undefined function bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[07-Aug-2016 12:04:34] PHP Fatal error:  Call to undefined function  bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[07-Aug-2016 12:04:34] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/footer.php on line 4
+[07-Aug-2016 12:39:24] PHP Fatal error:  Call to undefined function  bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[07-Aug-2016 12:39:25] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/footer.php on line 4
+[07-Aug-2016 13:54:21] PHP Fatal error:  Call to undefined function  bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[07-Aug-2016 13:54:22] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/footer.php on line 4
+[07-Aug-2016 14:17:15] PHP Fatal error:  Call to undefined function  bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[07-Aug-2016 14:17:16] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/footer.php on line 4
+[07-Aug-2016 16:33:03] PHP Fatal error:  Call to undefined function  bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/header.php on line 11
+[07-Aug-2016 16:33:04] PHP Fatal error:  Call to undefined function  get_bloginfo() in /home/studiobacon/public_html/wp-content/themes/bacon/footer.php on line 4

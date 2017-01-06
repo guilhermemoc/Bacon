@@ -1,0 +1,268 @@
+/*
+
+Theme Name: Bacon 0.1
+Theme URI: studiobacon.com.br
+Author: Studio Bacon
+Author URI: http://studiobacon.com.br
+Description: Site louco
+Version: 0.1
+License: reserved
+License URI: http://studiobacon.com.br
+Tags: bacon, studio, louco
+Text Domain: studiobacon
+
+*/
+
+@font-face {
+font-family: "beacon";
+src: url("./fonts/beacon.eot"); /* para IE */
+src: local("beacon"), url("./fonts/beacon.ttf") format("opentype");
+}
+
+@font-face {
+font-family: gagalin;
+src: url('./fonts/gagalin.otf');
+}
+
+@font-face {
+font-family: debby;
+src: url('./fonts/debby.ttf');
+}
+
+@font-face {
+font-family: coco;
+src: url('./fonts/coco.ttf');
+}
+
+@font-face {
+font-family: besom;
+src: url('./fonts/besom.ttf');
+}
+
+*{
+	margin: 0px;
+}
+
+html{
+    background: #1b1001;
+		margin-top: 0px !important;
+}
+
+body{
+	height: 100%;
+}
+
+header {
+    background: url('./images/header.jpg') center no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.parallax {
+	max-width: 63vw;
+    margin: 0 auto;
+}
+
+li.layer:last-of-type {
+    width: 100%;
+    margin: 26vh 0 0 13vw;
+}
+
+header .role {
+    background: url('./images/role_barra.png') center center no-repeat;
+    font-family: beacon;
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 89px;
+    bottom: -2px;
+    left: 0px;
+    color: #faead2;
+    font-size: 5ex;
+    text-align: center;
+    align-items: center;
+}
+
+header .role section {
+    width: 311px;
+    margin: 0 auto;
+    position: relative;
+    height: 90px;
+}
+
+header .role .barrarole {
+    background: url('./images/efeito_role.png') center center no-repeat;
+    height: 64px;
+    width: 308px;
+    float: left;
+    padding: 16px 6px 0px 0px;
+}
+
+@keyframes shake {
+  10% {
+    transform: translate3d(0, 10, 10);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+  90%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes scrollIcon{
+    0%{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+    100%{
+        -webkit-transform:translateY(6px);
+        transform:translateY(6px)
+    }
+}
+
+.home-scroll-cta {
+    position: relative;
+    top: 15px;
+}
+.scroll-animated {
+    width: 24px;
+    height: 38px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    margin: 0 auto 6px;
+}
+
+.scroll-animated-inner {
+    display: block;
+    width: 2px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 8px auto;
+    -webkit-animation: scrollIcon 1s alternate infinite;
+    animation: scrollIcon 1s alternate infinite;
+}
+
+/* Corpo */
+
+.contato {
+    width: 100%;
+    height: 100vh;
+    background: #1b1001 url('./images/textura.png') center center no-repeat;
+}
+
+.contato article {
+    max-width: 583px;
+    margin: 0 auto;
+    padding: 75px 0 0 0;
+    height: 153px;
+}
+
+.contato article div:nth-child(1){
+
+}
+.contato article div:nth-child(2){
+	float: right;
+}
+
+.contato article span {
+    color: #fff;
+    font-family: besom;
+    font-size: 94px;
+}
+
+.contato article div:nth-child(1) span:nth-child(1) {
+    font-family: gagalin;
+    font-size: 54px;
+}
+
+.contato article div:nth-child(1) span:nth-child(2) {
+    font-family: coco;
+    font-size: 35px;
+}
+
+.contato article div:nth-child(2) span:nth-child(1) {
+    font-family: debby;
+    font-size: 78px;
+}
+
+.contato article div:nth-child(2) span:nth-child(2) {
+    font-family: besom;
+    font-size: 94px;
+    letter-spacing: -9px;
+}
+
+.form {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fcontato label {
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    font-family: besom;
+    color: #fff;
+}
+#fcontato .fi {
+	float: left;
+	padding: 5px;
+	width: 100%;
+	border: 1px solid #681E1B;
+	resize: none;
+	margin: 0 0 15px 0px;
+	height: 27px;
+	border-radius: 15px;
+	background: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	font-family: besom;
+	font-size: 26px;
+}
+
+textarea#msg {
+    height: 150px!important;
+}
+
+.button {
+	    background: #681E1B;
+	    border: none;
+	    padding: 10px;
+	    width: 100%;
+	    text-align: center;
+	    -webkit-appearance: none;
+	    cursor: pointer;
+	    font-size: 36px;
+	    margin-top: 10px;
+	    color: #fff;
+	    display: block;
+	    float: left;
+	    text-decoration: none;
+	    font-family: besom;
+	    border-radius: 5px;
+	}
+}
+.button:hover {background: #A64B4B;}
+.formdiv {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3% 0;
+    height: 60%;
+    display: block;
+}
