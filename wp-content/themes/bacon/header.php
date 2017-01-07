@@ -18,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/novo.css">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/component.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/media.css" />
   <script src="<?php bloginfo('template_url'); ?>/assets/js/modernizr.custom.js"></script>
 
 <script>

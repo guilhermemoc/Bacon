@@ -1,0 +1,22 @@
+@media (max-width: 1025px){
+  .horizontal{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .grid figure, .grid .placeholder {
+    width: 317px;
+    height: 212px;
+    margin: 51px 22px;
+}
+form {
+    width: 65%;
+    margin: 0 auto;
+}
+
+ul.parallax {
+    max-width: 63vw;
+    /* margin: 0 auto; */
+    margin: 0px;
+}
+}
