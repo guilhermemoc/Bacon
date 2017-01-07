@@ -272,8 +272,38 @@ textarea#msg {
 	width: 100%;
 	margin: 0 auto;
 	/* padding: 3% 0; */
-	height: 65vh;
+	height: 85vh;
 	display: block;
 	/* height: 100%; */
 	background: #1b1001 url(../images/textura.png) center center no-repeat;
+}
+
+
+
+.footer{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	bottom: 0;
+	background-image: url(../images/header.jpg);
+	border-top: 5px solid #f5bc6a;
+}
+
+.footer img{
+	width: 200px;
+	/* height: 100%; */
+	position: absolute;
+	top: -25px;
+	left: 127px;
+}
+
+.footer-text{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: right;
+	margin-right: 3%;
+	font-family: gagalin;
+	font-size: 20px;
+	color: #f5bc6a;
 }

@@ -10,6 +10,10 @@
     wp_head();
   ?>
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<script src="<?php bloginfo('template_url'); ?>/assets/js/libs/jquery.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/assets/js/smoothroll/tweenmax.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/assets/js/smoothroll/scroolto.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/assets/js/smoothroll/function.js"></script>
 	<!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/style.css"> -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/novo.css">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/normalize.css" />
